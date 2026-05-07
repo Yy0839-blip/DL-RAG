@@ -1,0 +1,23 @@
+프롬프트 : 
+
+Kaggle Note환경에서 구동할 것인데, 01-resnet-18.ipynb에 Hugging Face transformers를 사용해서 ResNet-18 이미지 분류 예제를 만들어줘.
+조건:
+- datasets 라이브러리에서 샘플 이미지 불러오기
+- microsoft/resnet-18 모델 사용
+- AutoImageProcessor로 전처리 
+- PyTorch기반으로 추론 수행
+- 가장 높은 확률의 클래스 출력 
+- top-10결과도 함께 출력
+코드는 주석을 포함해서 Jupyter Notebook형태로 작성해줘
+
+
+--------------------
+
+Kaggle Note 환경에서 구동할 것인데, 02-bert_for_masked.ipynb에 HuggingFace transformers를 사용해서 bert 기반 Masked LanguageModeling 예제를 만들어줘
+조건 : 
+- Bert-base-uncased 모델 사용
+- AutoTokenizer와 AutoModelForMaskedLM 사용
+- [Mask] 토큰이 포함된 문장 입력
+- PyTorch로 추론 수행
+- [Mask] 위치에 Top-5 예측 단어를 출력
+코드는 주석을 포함하여 Jupyter Notebook 형태로 구성해줘

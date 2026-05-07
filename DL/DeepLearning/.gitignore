@@ -1,0 +1,8 @@
+Data/best_model.keras
+Data/fingers.zip
+.ipynb_checkpoints/
+*.DS_Store
+keras/Data/*.pth
+keras/Data/*.png
+pytorch/Data/*.pth
+pytorch/Note/*.pth
